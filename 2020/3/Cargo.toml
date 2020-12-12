@@ -1,7 +1,7 @@
 [package]
-name = "toboggan"
+name = "day-3"
 version = "0.1.0"
-authors = ["Dan O'Connor <oconnor.dmoc@gmail.com>"]
+authors = ["D M O'Connor <dmocoder@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
