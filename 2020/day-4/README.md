@@ -3,7 +3,7 @@
 For this day I improved my basic rust code somewhat. I had previously been using lots of nesting and use of `unwrap()` to get around the `Option` & `Result` types returned by many of Rust's fundamental methods.
 
 After reading this [excellent blog post](https://qubyte.codes/blog/parsing-input-from-stdin-to-structures-in-rust) I realised how much cleaner and easier it is to use methods such as `filter_map` to iterate through only lines that were successfully read in. 
-Previously I was reading from a file whose name was harcoded. This meant copy and pasting this method into every solution:
+Previously I was reading from a file whose name was hardcoded. This meant copy and pasting this method into every solution:
 ```
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
 where P: AsRef<Path>, {
